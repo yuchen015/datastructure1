@@ -1,0 +1,23 @@
+{
+  "name": "datastructure1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/yuchen015/datastructure1#readme",
+  "bugs": {
+    "url": "https://github.com/yuchen015/datastructure1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuchen015/datastructure1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "First.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
