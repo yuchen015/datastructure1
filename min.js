@@ -11,7 +11,7 @@ function min(A){
     return "Error input!"
  }
 }
-var Ary=[0,5,3,9,6,7,2,1];//有0到n個數
-console.log("Min (10)="+min(10));
+var Ary=[0,5,3,9,6,7,2,1];//陣列
+console.log("Min (10)="+min(10));//拿來偵測錯誤用
 
-console.log("Min="+min(Ary))
+console.log("Min="+min(Ary))//console.log式指印出括弧中的內容

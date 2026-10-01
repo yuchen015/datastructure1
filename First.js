@@ -15,13 +15,13 @@ while (true){
 
 //使用者輸入身高
 while(true){
-    height = readline.questionFloat('Your weight (110~200CM)?');
-    if(height < 110 || height > 200){
+    height = readline.questionFloat('Your height (110~200CM)?');
+     if(height>=110 && height<=200){ //反向邏輯
+        break;
+    }else{
         console.log("Please 110~200!");
         continue;
     }
-    else
-        break;
 }
 
 var bmi = weight/((height/100)**2);
