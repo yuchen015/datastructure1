@@ -29,3 +29,5 @@ for (let i = 0; i < num; i++) {
     ary[i]=readline.questionFloat("input grade:"+i);
 }
 console.log("Average="+average(ary));
+
+//嘗試連接Github
